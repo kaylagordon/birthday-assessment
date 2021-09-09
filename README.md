@@ -30,7 +30,7 @@ We do want to see good commit habits - atomic commits that log small, focused ch
 
 ### Iteration 0
 
-Pull down the [API repo](https://github.com/turingschool-examples/turing-birthday-calendar-api). Set up instructions are in that repository's README.
+Pull down the [API repo](https://github.com/turingschool-examples/birthday-calendar-api). Set up instructions are in that repository's README.
 
 Do *not* nest this inside your front-end repository.
 
