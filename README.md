@@ -44,6 +44,8 @@ Get all existing birthdays on page load and display them on the DOM, with each b
 
 Create a controlled form component to create a birthday (look into the API documentation to see what pieces of information are expected, and what datatypes it wants each piece to be). As a user types into the input fields, the form component's state should change.  When the user clicks the `Add this birthday!` button, the application should update the App's state.  The new birthday should display with all of the existing birthdays. 
 
+Note: You can assume that the user will input correct data (i.e. a number for month and day that represent a valid date). You do not need to worry about error handling!
+
 **Do not worry about making the POST request to the database yet**.
 
 ### Iteration 3
