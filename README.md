@@ -36,17 +36,19 @@ Do *not* nest this inside your front-end repository.
 
 ### Iteration 1
 
-Get all existing birthdays on page load and display them on the DOM, with each birthday appearing in the correct month.
+Get all existing birthdays on page load and display them on the DOM, with each birthday appearing in the correct month. 
 
-**Do not worry about including the delete button for each birthday at this point.**
+Notes:  
+- For now, use the months data from the `month_data.js` file. Do not fetch that data. 
+- Do not worry about including the delete button for each birthday at this point.
 
 ### Iteration 2
 
 Create a controlled form component to create a birthday (look into the API documentation to see what pieces of information are expected, and what datatypes it wants each piece to be). As a user types into the input fields, the form component's state should change.  When the user clicks the `Add this birthday!` button, the application should update the App's state.  The new birthday should display with all of the existing birthdays. 
 
-Note: You can assume that the user will input correct data (i.e. a number for month and day that represent a valid date). You do not need to worry about error handling!
-
-**Do not worry about making the POST request to the database yet**.
+Notes:  
+- You can assume that the user will input correct data (i.e. a number for month and day that represent a valid date). You do not need to worry about error handling!  
+- Do not worry about making the POST request to the database yet.  
 
 ### Iteration 3
 
@@ -59,16 +61,15 @@ Now that the functionality is there for adding a birthday, write some tests:
 
 When the user makes a birthday, the application should make a post request to the API. The new birthday should still exist upon reloading the page.
 
-**Keep any fetch calls you write in the App component for now**
-
-(If you have time to refactor your fetch calls into a separate helper file, that is fine, but it is *NOT* a requirement for this application.)
+Note:  
+- Keep any fetch calls you write in the App component for now. If you have time to refactor your fetch calls into a separate helper file, that is fine, but it is *NOT* a requirement for this application.
 
 ### Iteration 5 (extension)
 
 Delete a birthday when the user clicks the `X` button.  The deletion should persist upon reloading the page.
 
 ### Other Extensions
-
 * Add error handling for the form so that only valid numbers are accepted. 
 * Try writing out a few other tests to cover sad path testing for your network requests.
+* Use a fetch to get the month data from the API, rather than using the `months_data.js` file.
 * Sort the birthdays on each Month card so they appear in chronological order.
