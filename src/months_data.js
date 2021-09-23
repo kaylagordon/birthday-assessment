@@ -12,3 +12,6 @@ const months = [
   { name: "November", id: 11 },
   { name: "December", id: 12 },
 ]
+
+
+module.exports = months;
