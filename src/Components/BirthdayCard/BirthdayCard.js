@@ -4,7 +4,7 @@ const BirthdayCard = ({ id, name }) => {
 
   return (
     <article>
-      <h1 id={id}>{name}</h1>
+      <h2 id={id}>{name}</h2>
     </article>
   )
 }
