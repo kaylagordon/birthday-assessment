@@ -4,9 +4,14 @@ import './App.css';
 
 class App extends Component {
 
+  
+
+
+
   render() {
     return (
       <div className="App">
+        {console.log(months)}
         <h1>Birthdays</h1>
         <div className='bday-form'>
 
