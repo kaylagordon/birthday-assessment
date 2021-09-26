@@ -23,9 +23,9 @@ class App extends Component {
         <div className='bday-form'>
           {/* <Form /> */}
         </div>
-        <div className='bday-container'>
+        {/* <div className='bday-container'> */}
           <AllTheBirthdays bdayMonths={this.state.bdayMonths}/>
-        </div>
+        {/* </div> */}
       </div>
     );
   }
