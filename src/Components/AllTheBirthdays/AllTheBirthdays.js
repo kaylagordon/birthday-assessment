@@ -14,7 +14,7 @@ const AllTheBirthdays = ({ bdayMonths }) => {
   return (
     <>
     <p>I'm a birthday</p>
-    <div>{allMonths}</div>
+    <div className='bday-container'>{allMonths}</div>
     </>
   )
 }
